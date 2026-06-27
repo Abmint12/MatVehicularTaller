@@ -93,6 +93,11 @@ public class Vehiculo {
         }
         return null;
     }
+    
+    public void registrarVehiculo() {
+    System.out.println("Vehículo registrado correctamente.");
+}
+    
     public String mostrarDatos(){
          return "Placa: " + placa
                 + "\nMarca: " + marca
